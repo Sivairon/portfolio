@@ -1,7 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
+
 ul {
     list-style-type: none;
     margin: 0px;
@@ -32,17 +29,3 @@ li a:hover:not(.active) {
 	body{
     font-family:Courier;
 ]
-</style>
-
-</head>
-<body>
-
-<ul>
-  <li><a class="active" href="#about me">About me</a></li>
-  <li><a href="#Facts">Facts</a></li>
-  <li><a href="#Creations">Creations</a></li>
-</ul>
-
-</body>
-</html>
-
