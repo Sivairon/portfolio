@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 5px;
+    width: 150px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #6600cc;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #b380ff;
+    color:white;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="About me" href="#about me">About me</a></li>
+  <li><a href="#Facts">Facts</a></li>
+  <li><a href="#Creations">Creations</a></li>
+</ul>
+
+</body>
+</html>
