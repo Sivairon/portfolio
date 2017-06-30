@@ -26,35 +26,14 @@ li a:hover:not(.active) {
     background-color: #b380ff;
     color:white;
 }
-	body{
-    font-family:Courier;
-    font-size: 12px;
-}
-   
-	h1{
-    test-align:center;
-    font-family:Century Gothic;
-    color:red;
-    font-size: 20px;
-}
-	h2{
-    test-align:center;
-    font-family:Century Gothic;
-    color:red;
-    font-size: 20px;
-}	
-	h3{
-    test-align:center;
-    font-family:Century Gothic;
-    color:red;
-    font-size: 20px;
+	    
+.enlarge-onhover {
+     width: 30px;
+     height: 30px;
 }
 
-	h4{
-    test-align:center;
-    font-family:Century Gothic;
-    color:red;
-    font-size: 15px;
+.enlarge-onhover:hover {
+     width: 70px;
+     height: 70px;
 }
-	    
 </style>
