@@ -6,15 +6,11 @@
 
 <body>
 
-<button onclick="myFunction()">Welcome</button>
-
-
-<myFunction()>
-
 <p>Sivairon</p>
 <h1>Dana Tam</h1>
-<h2><img src="http://orig01.deviantart.net/58a3/f/2016/167/0/4/_star__guardian_lux_by_sivai-da6idnk.png" alt="Star" style="width:150px;height:150px;"</h2>
 
+<h2><img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="http://orig01.deviantart.net/58a3/f/2016/167/0/4/_star__guardian_lux_by_sivai-da6idnk.png" alt="StarGuardianLux" width="32" height="32"> </h2>
+	
 <h3>Biography</h3>
 
 <p2>I attend Galileo High School in San Francisco. In the next upcoming school year, I will be a Junior
@@ -51,6 +47,15 @@ function Me() {
 document.getElementById("demo").innerHTML = "I really want to creat cartoons in the future! I really like to draw and want to make them come alive.";
 }
 
+function bigImg(x) {
+    x.style.height = "150px";
+    x.style.width = "150px";
+}
+
+function normalImg(x) {
+    x.style.height = "100px";
+    x.style.width = "100px";
+}
 </script>
 
 	
